@@ -1,0 +1,9 @@
+{!! Form::model($data,['url'=>'update']) !!}
+{!! Form::label('name','Name') !!}
+{!! Form::text('name') !!}
+{!! Form::label('type','Type') !!}
+{!! Form::text('type') !!}
+{!! Form::label('author','Author') !!}
+{!! Form::text('author') !!}
+{!! Form::submit('Save') !!}
+{!! Form::close() !!}
